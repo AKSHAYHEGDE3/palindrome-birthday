@@ -56,7 +56,7 @@ function nextPalindromeDate(date){
 
    if (nextDate.month === 2) {
      if (isLeapYear(nextDate.year)) {
-       if (day > 29) {
+       if (nextDate.day > 29) {
         nextDate.day = 1;
         nextDate.month = 3;
        }
